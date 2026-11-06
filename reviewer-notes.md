@@ -1,5 +1,7 @@
 # Reviewer notes - Nashville Beer Permits brief (2026-11-06)
 
+**Thesis (Standards Section 13.1, recorded for the cold-reader gate):** Nashville's beer permits pile up downtown - one council district holds 22.2 percent of them - and a permit count is not a venue count. Note on timing: this package was built during the 2026-11-06 morning run and the thesis was recorded the same morning, before the cold-reader gate ran, when Section 13 landed mid-run; the gate below was run against the finished brief exactly as Section 13.3 prescribes.
+
 Claims most likely to be challenged:
 
 1. **"22.2 percent in District 19"** - a direct count of the register's own Council_Dist field (458 of 2,064 issued; 8 records carry no district). If a reader's district map differs from the register's field, counts will differ; the brief attributes the geography to the register itself.

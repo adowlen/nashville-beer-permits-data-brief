@@ -16,5 +16,8 @@ checks["off_only_575"]=sum(1 for r in issued if r["Permit_Sub_Type"]=="OFFSALES"
 join=json.load(open(os.path.join(PKG,"data/zip_join_summary.json")))
 checks["spearman_0_904"]=join["spearman_rho_beer_vs_police_by_zip"]==0.904
 checks["police_zip_missing_46_6"]=join["police_zip_missing_pct"]==46.6
+panel=list(csv.DictReader(open(os.path.join(PKG,"data/district_panel.csv"))))
+counts=sorted(int(r["issued_permits"]) for r in panel)
+checks["human_scale_17_smallest_424_D19_458"]=sum(counts[:17])==424 and max(counts)==458
 print(json.dumps(checks,indent=1)); print("PASS" if all(checks.values()) else "FAIL", f"{sum(checks.values())}/{len(checks)}")
 json.dump(checks, open(os.path.join(PKG,"data/verify_independent_output.json"),"w"), indent=1)

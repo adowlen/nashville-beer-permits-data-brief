@@ -2,12 +2,14 @@
 
 **One-line summary:** Of the 2,064 issued beer permits in Metro Nashville's register on November 6, 2026, 458 (22.2 percent) sit in a single Metro Council district, District 19, which covers downtown, while the median council district holds 40.
 
+Start with one property. The resort and convention complex on the Cumberland River in ZIP 37214 holds 74 beer permits by itself, one for each of its bars, restaurants, and venues. It is the extreme case of the pattern this brief measures: in Nashville's beer permit register, the permits pile up where visitors gather, and a single district downtown holds more of them than the 17 smallest districts combined.
+
 Machine Readable pulled the full Nashville Beer Permit Locations register (2,117 records, snapshot November 6, 2026) from Metro Nashville's open data service. The register is the Metro Beer Permit Board's current-status list: 2,064 records carry status ISSUED and 53 carry status TEMPORARY. Permits that lapsed or were surrendered before the snapshot are not in the register, so every figure below describes the permits in force on the snapshot date, not every permit ever issued.
 
 ## Where the permits sit
 
 - District 19 (downtown) holds 458 issued permits, 22.2 percent of the register. The next district, District 15, holds 201 (9.7 percent), and District 17 holds 101 (4.9 percent). The top three districts together hold 36.8 percent of all issued permits.
-- The median council district holds 40 issued permits. District 19 holds 11.4 times the median. The smallest counts are District 8 with 13 and District 12 with 14.
+- The median council district holds 40 issued permits. District 19 holds 11.4 times the median, and more than the 17 smallest districts combined (424; derived from the district panel in this brief's data folder). The smallest counts are District 8 with 13 and District 12 with 14.
 - By ZIP code, 37203 (downtown) holds 336 issued permits (16.3 percent) and 37214 holds 213 (10.3 percent). No other ZIP holds more than 8.3 percent.
 - District 19's permits are mostly on-site: 344 on-site, 81 on-and-off-site, 28 off-site only, and 5 wholesale. Across the whole register, 1,464 of 2,064 issued permits (70.9 percent) allow on-site sales (on-site or on-and-off-site), 575 (27.9 percent) are off-site only, 24 are wholesale, and 1 is a special-events permit.
 

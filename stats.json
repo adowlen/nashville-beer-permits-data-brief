@@ -476,5 +476,12 @@
     "denver_on_premises_group": 1498,
     "denver_on_premises_pct": 76.2,
     "note": "Different instruments: Denver's register covers all liquor license classes (hotels, taverns, stores, beer & wine); Nashville's register here is beer permits only, issued by the Metro Beer Permit Board. Counts and type shares are compared as register footprints, not as like-for-like license universes."
+  },
+  "human_scale_conversion": {
+    "claim": "District 19 (458 issued permits) holds more issued permits than the 17 smallest council districts combined (424)",
+    "district19": 458,
+    "smallest_17_combined": 424,
+    "derived_from": "data/district_panel.csv",
+    "label": "derived"
   }
 }
