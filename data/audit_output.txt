@@ -1,0 +1,20 @@
+rows pulled: 2117
+COUNTER Status: {'ISSUED': 2064, 'TEMPORARY': 53}
+COUNTER Permit_Type: {'BBPERMIT': 2117}
+COUNTER Permit_Sub_Type: {'ONSALES': 1259, 'OFFSALES': 580, 'ONOFFSALES': 244, 'WHOLESALES': 24, 'SPECIAL': 10}
+COUNTER Permit_Subtype_Description: {'BB - On Site Sales': 1259, 'BB - Off Site Sales': 580, 'BB - On & Off Site Sales': 244, 'BB - Wholesale, Distributor': 24, 'BB - Special Events': 10}
+MISSING/ZERO Council_Dist: 8 of 2117 (0.4%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO ZIP: 0 of 2117 (0.0%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Census_Tract: 7 of 2117 (0.3%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Lat: 0 of 2117 (0.0%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Lon: 0 of 2117 (0.0%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Parcel: 0 of 2117 (0.0%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Business_Owner: 1084 of 2117 (51.2%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Date_Entered: 0 of 2117 (0.0%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+MISSING/ZERO Date_Issued: 52 of 2117 (2.5%) - excluded from any rate denominator using that field; permits are counted in totals regardless
+No 'unknown' status value exists in Status; the only non-ISSUED value is TEMPORARY (53).
+DISTRICT EXCLUDED SAMPLE (n=8): subtypes {'ONSALES': 4, 'OFFSALES': 3, 'ONOFFSALES': 1}, statuses {'ISSUED': 7, 'TEMPORARY': 1} - vs included subtypes {'ONSALES': 1255, 'OFFSALES': 577, 'ONOFFSALES': 243, 'WHOLESALES': 24, 'SPECIAL': 10}; excluded share 0.4%, no systematic subtype skew visible at this size
+UNIT CHECK: every share in this brief is permits / permits (same register, same snapshot). The police-incident join compares SHARES of two different registers by ZIP and is labeled as a share comparison, never a rate; 46.6% of police records carry no numeric ZIP and are excluded from BOTH the join numerator and denominator, stated in the brief.
+LAG POLARITY: n_with_both_dates=2065, negative=1 [(-350, 'Joy Market', '1999-12-30', '1999-01-14')], over_5y=71 (max 8058d). Long lags pair old Date_Entered with recent Date_Issued in batches (e.g. Gaylord permits entered 2012-09-20, issued 2023-01-12) - Date_Issued behaves in part as a last-issuance stamp. Headline wait uses the entered-2023+ cohort only; all-years medians are printed with that caveat.
+ZIP JOIN: beer register covers 34 ZIPs; join panel covers the 33 ZIPs present in both registers; 2,063 of 2,064 issued beer permits (99.95%) sit in a matched ZIP. No spatial join is used in this brief; council district and ZIP are register-supplied fields, so no snapping check applies. Physical scale: counts are permits (establishments/outlets), not establishments - one resort complex holds 74 permits in ZIP 37214, stated in the brief.
+INTERNAL CONTROL: ZIP 37214 / District 15 - the register's second-largest ZIP is dominated by a single resort complex (74 of 213 permits carry 'Gaylord' in the business name). Re-running the district ranking with Gaylord-named permits removed drops District 15 from 201 to 127 issued permits - still #2, so the downtown-plus-airport-corridor shape is not a single-property artifact, but District 15's raw count overstates its number of distinct venues. Recorded in verification.md.

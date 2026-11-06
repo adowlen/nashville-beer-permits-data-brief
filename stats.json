@@ -1,0 +1,480 @@
+{
+  "dataset": "Nashville Beer Permit Locations (Beer_Permit_Locations_Feature_Layer_view layer 0, hubNashville / Metro Nashville open data)",
+  "snapshot_date": "2026-11-06",
+  "rows": 2117,
+  "unit": "one row = one beer permit record in the served register (Permit__ is the permit number); the register is a current-status list, not a historical ledger of every permit ever issued - permits that lapsed or were surrendered before the snapshot are not in it",
+  "status_counter": {
+    "ISSUED": 2064,
+    "TEMPORARY": 53
+  },
+  "subtype_counter": {
+    "ONSALES": 1259,
+    "OFFSALES": 580,
+    "ONOFFSALES": 244,
+    "WHOLESALES": 24,
+    "SPECIAL": 10
+  },
+  "subtype_description_counter": {
+    "BB - On Site Sales": 1259,
+    "BB - Off Site Sales": 580,
+    "BB - On & Off Site Sales": 244,
+    "BB - Wholesale, Distributor": 24,
+    "BB - Special Events": 10
+  },
+  "permit_type_counter": {
+    "BBPERMIT": 2117
+  },
+  "issued_rows": 2064,
+  "issued_subtype_counter": {
+    "ONSALES": 1238,
+    "OFFSALES": 575,
+    "ONOFFSALES": 226,
+    "WHOLESALES": 24,
+    "SPECIAL": 1
+  },
+  "issued_on_site_or_both": 1464,
+  "issued_on_site_or_both_pct": 70.9,
+  "issued_off_only": 575,
+  "issued_off_only_pct": 27.9,
+  "lag": {
+    "n": 2065,
+    "median_days": 75,
+    "mean_days": 242.3,
+    "p90_days": 307,
+    "max_days": 8058,
+    "min_days": -350,
+    "negative_n": 1,
+    "zero_n": 3
+  },
+  "lag_by_subtype": {
+    "OFFSALES": {
+      "n": 575,
+      "median_days": 49,
+      "p90_days": 190,
+      "max_days": 7181
+    },
+    "ONOFFSALES": {
+      "n": 226,
+      "median_days": 93.5,
+      "p90_days": 329,
+      "max_days": 1585
+    },
+    "ONSALES": {
+      "n": 1239,
+      "median_days": 85,
+      "p90_days": 370,
+      "max_days": 8058
+    },
+    "SPECIAL": {
+      "n": 1,
+      "median_days": 80,
+      "p90_days": 80,
+      "max_days": 80
+    },
+    "WHOLESALES": {
+      "n": 24,
+      "median_days": 90.5,
+      "p90_days": 294,
+      "max_days": 433
+    }
+  },
+  "lag_by_entered_era": {
+    "1993-2009": {
+      "n": 194,
+      "median_days": 37.0
+    },
+    "2010-2019": {
+      "n": 751,
+      "median_days": 48
+    },
+    "2020-2022": {
+      "n": 385,
+      "median_days": 94
+    },
+    "2023-2026": {
+      "n": 735,
+      "median_days": 96
+    }
+  },
+  "entered_2023_plus": {
+    "n": 787,
+    "with_issued_date": 735,
+    "status_counter": {
+      "ISSUED": 734,
+      "TEMPORARY": 53
+    }
+  },
+  "issued_by_year": {
+    "1994": 28,
+    "1995": 4,
+    "1997": 7,
+    "1998": 4,
+    "1999": 5,
+    "2000": 6,
+    "2001": 3,
+    "2002": 13,
+    "2003": 7,
+    "2004": 9,
+    "2005": 18,
+    "2006": 14,
+    "2007": 25,
+    "2008": 19,
+    "2009": 25,
+    "2010": 28,
+    "2011": 31,
+    "2012": 34,
+    "2013": 44,
+    "2014": 48,
+    "2015": 84,
+    "2016": 60,
+    "2017": 86,
+    "2018": 97,
+    "2019": 130,
+    "2020": 105,
+    "2021": 122,
+    "2022": 123,
+    "2023": 230,
+    "2024": 186,
+    "2025": 230,
+    "2026": 240
+  },
+  "entered_by_year": {
+    "1993": 28,
+    "1995": 4,
+    "1997": 9,
+    "1998": 4,
+    "1999": 4,
+    "2000": 6,
+    "2001": 5,
+    "2002": 14,
+    "2003": 8,
+    "2004": 8,
+    "2005": 18,
+    "2006": 20,
+    "2007": 19,
+    "2008": 20,
+    "2009": 27,
+    "2010": 28,
+    "2011": 31,
+    "2012": 93,
+    "2013": 47,
+    "2014": 76,
+    "2015": 65,
+    "2016": 63,
+    "2017": 94,
+    "2018": 115,
+    "2019": 139,
+    "2020": 111,
+    "2021": 134,
+    "2022": 140,
+    "2023": 165,
+    "2024": 180,
+    "2025": 273,
+    "2026": 169
+  },
+  "issued_2021_2025_total": 891,
+  "district_top10_issued": [
+    {
+      "district": 19,
+      "permits": 458,
+      "share_pct": 22.2
+    },
+    {
+      "district": 15,
+      "permits": 201,
+      "share_pct": 9.7
+    },
+    {
+      "district": 17,
+      "permits": 101,
+      "share_pct": 4.9
+    },
+    {
+      "district": 6,
+      "permits": 100,
+      "share_pct": 4.8
+    },
+    {
+      "district": 5,
+      "permits": 94,
+      "share_pct": 4.6
+    },
+    {
+      "district": 20,
+      "permits": 72,
+      "share_pct": 3.5
+    },
+    {
+      "district": 24,
+      "permits": 63,
+      "share_pct": 3.1
+    },
+    {
+      "district": 18,
+      "permits": 63,
+      "share_pct": 3.1
+    },
+    {
+      "district": 16,
+      "permits": 58,
+      "share_pct": 2.8
+    },
+    {
+      "district": 26,
+      "permits": 54,
+      "share_pct": 2.6
+    }
+  ],
+  "district19_share_pct": 22.2,
+  "districts_with_permits": 35,
+  "issued_missing_district": 7,
+  "district19_subtypes": {
+    "ONSALES": 344,
+    "OFFSALES": 28,
+    "ONOFFSALES": 81,
+    "WHOLESALES": 5
+  },
+  "district19_on_share_pct": 92.8,
+  "all_issued_on_share_pct": 70.9,
+  "district_bottom5_issued": [
+    {
+      "district": 23,
+      "permits": 19
+    },
+    {
+      "district": 3,
+      "permits": 18
+    },
+    {
+      "district": 4,
+      "permits": 17
+    },
+    {
+      "district": 12,
+      "permits": 14
+    },
+    {
+      "district": 8,
+      "permits": 13
+    }
+  ],
+  "top3_district_share_pct": 36.8,
+  "top_district_to_median_ratio": 11.4,
+  "median_district_permits": 40,
+  "zip_top10_issued": [
+    {
+      "zip": "37203",
+      "permits": 336,
+      "share_pct": 16.3
+    },
+    {
+      "zip": "37214",
+      "permits": 213,
+      "share_pct": 10.3
+    },
+    {
+      "zip": "37211",
+      "permits": 172,
+      "share_pct": 8.3
+    },
+    {
+      "zip": "37209",
+      "permits": 148,
+      "share_pct": 7.2
+    },
+    {
+      "zip": "37206",
+      "permits": 123,
+      "share_pct": 6.0
+    },
+    {
+      "zip": "37013",
+      "permits": 100,
+      "share_pct": 4.8
+    },
+    {
+      "zip": "37201",
+      "permits": 97,
+      "share_pct": 4.7
+    },
+    {
+      "zip": "37207",
+      "permits": 87,
+      "share_pct": 4.2
+    },
+    {
+      "zip": "37115",
+      "permits": 78,
+      "share_pct": 3.8
+    },
+    {
+      "zip": "37217",
+      "permits": 69,
+      "share_pct": 3.3
+    }
+  ],
+  "distinct_business_names_issued": 1869,
+  "businesses_with_2plus": 100,
+  "max_permits_one_business_name": [
+    [
+      "WALGREENS",
+      24
+    ],
+    [
+      "DOLLAR GENERAL",
+      13
+    ],
+    [
+      "DOLLAR GENERAL STORE",
+      11
+    ],
+    [
+      "TWICEDAILY",
+      7
+    ],
+    [
+      "LAS PALMAS MEXICAN RESTAURANT",
+      6
+    ]
+  ],
+  "distinct_owners_issued": 836,
+  "owner_top5": [
+    [
+      "MARVIN K HEWATT",
+      20
+    ],
+    [
+      "KROGER LIMITED PARTNERSHIP",
+      17
+    ],
+    [
+      "LESLIE EVANS CHERRY, STEVEN RAY HOSTETTER",
+      17
+    ],
+    [
+      "DOLGENCORP, LLC",
+      15
+    ],
+    [
+      "DAVID SELTZER",
+      15
+    ]
+  ],
+  "permits_at_duplicate_addresses": null,
+  "distinct_addresses_issued": 1933,
+  "addresses_with_2plus_permits": 47,
+  "max_permits_one_address": [
+    [
+      "2800 OPRYLAND DR",
+      74
+    ],
+    [
+      "2100 WEST END AVE",
+      7
+    ],
+    [
+      "18 SPRINGHOUSE LN",
+      4
+    ]
+  ],
+  "distinct_parcels_issued": 1605,
+  "parcels_with_2plus": 248,
+  "temporary": {
+    "n": 53,
+    "with_issued_date": 1,
+    "entered_range": [
+      "2025-03-13",
+      "2026-11-03"
+    ],
+    "subtypes": {
+      "ONSALES": 21,
+      "ONOFFSALES": 18,
+      "OFFSALES": 5,
+      "SPECIAL": 9
+    }
+  },
+  "issued_status_without_issued_date": 0,
+  "nonissued_with_issued_date": 1,
+  "completeness": {
+    "missing_council_district_all": 8,
+    "missing_zip_all": 0,
+    "missing_parcel_all": 0,
+    "missing_business_owner_all": 1084,
+    "missing_latlon_all": 0
+  },
+  "audit_column_counters": {
+    "Status": {
+      "ISSUED": 2064,
+      "TEMPORARY": 53
+    },
+    "Permit_Type": {
+      "BBPERMIT": 2117
+    },
+    "Permit_Sub_Type": {
+      "ONSALES": 1259,
+      "OFFSALES": 580,
+      "ONOFFSALES": 244,
+      "WHOLESALES": 24,
+      "SPECIAL": 10
+    }
+  },
+  "zip_join_police_incidents": {
+    "police_served_rows_snapshot_2026_11_06": 946569,
+    "police_numeric_zip_rows": 505773,
+    "police_zip_missing_or_nonnumeric": 440796,
+    "police_zip_missing_pct": 46.6,
+    "common_zips": 33,
+    "beer_permits_in_common_zips": 2063,
+    "spearman_rho_beer_vs_police_by_zip": 0.904
+  },
+  "zip_join_headlines": {
+    "37203": {
+      "beer_share_pct": 16.3,
+      "police_share_pct_zip_known": 6.3,
+      "ratio": 2.57
+    },
+    "37207": {
+      "beer_share_pct": 4.2,
+      "police_share_pct_zip_known": 10.0,
+      "ratio": 0.42
+    },
+    "37013": {
+      "beer_share_pct": 4.8,
+      "police_share_pct_zip_known": 10.6,
+      "ratio": 0.46
+    }
+  },
+  "district15": {
+    "issued": 201,
+    "subtypes": {
+      "ONOFFSALES": 25,
+      "ONSALES": 147,
+      "OFFSALES": 28,
+      "WHOLESALES": 1
+    }
+  },
+  "zip37214": {
+    "issued": 213,
+    "gaylord_named": 74,
+    "subtypes": {
+      "ONOFFSALES": 25,
+      "ONSALES": 150,
+      "OFFSALES": 37,
+      "WHOLESALES": 1
+    }
+  },
+  "lag_bounded": {
+    "note": "Date_Issued behaves in part like a last-issuance/renewal stamp: 76 of the 230 permits with a 2025 issued date were entered before 2025, and one group of Gaylord permits shares entered 2012-09-20 with issued 2023-01-12. Long lags are therefore NOT read as application waits. The cleanest wait cohort is permits entered and issued in the recent window.",
+    "entered_2023_plus_median_days_nonneg": 96,
+    "nonneg_median_days_all": 75.5,
+    "within_365d_n": 1905,
+    "within_365d_median_days": 67
+  },
+  "denver_comparison": {
+    "source": "adowlen/denver-liquor-licenses-data-brief (published 2026-10-24), stats pulled 2026-10-23",
+    "denver_active_licenses": 1965,
+    "denver_on_premises_group": 1498,
+    "denver_on_premises_pct": 76.2,
+    "note": "Different instruments: Denver's register covers all liquor license classes (hotels, taverns, stores, beer & wine); Nashville's register here is beer permits only, issued by the Metro Beer Permit Board. Counts and type shares are compared as register footprints, not as like-for-like license universes."
+  }
+}

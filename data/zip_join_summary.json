@@ -1,0 +1,9 @@
+{
+  "police_served_rows_snapshot_2026_11_06": 946569,
+  "police_numeric_zip_rows": 505773,
+  "police_zip_missing_or_nonnumeric": 440796,
+  "police_zip_missing_pct": 46.6,
+  "common_zips": 33,
+  "beer_permits_in_common_zips": 2063,
+  "spearman_rho_beer_vs_police_by_zip": 0.904
+}
